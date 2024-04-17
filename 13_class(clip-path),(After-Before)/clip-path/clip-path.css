@@ -1,0 +1,36 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+background-color: cadetblue;
+ }
+ .box{
+    height:400px;
+    width:500px;
+    background-image:url(https://www.thewomenachiever.com/wp-content/uploads/2021/12/Coding-Resources-for-Women.jpg);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    margin: auto;
+}
+.text{
+    height: 400px;
+    width: 100%;
+    position: relative;
+   
+ }
+ .text:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: polygon(75% 0%, 100% 47%, 75% 100%, 0% 100%, 0 54%, 0% 0%);
+ }
+ .text p{
+    margin-top: 100px;
+    
+ }

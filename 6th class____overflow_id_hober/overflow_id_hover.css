@@ -1,0 +1,34 @@
+div a {
+background-color: blue;
+}
+#one{
+    background-color:rgb(13, 255, 0);
+   
+   border: 6px solid green;
+
+}
+.overflow-test  {
+    background-color: rgb(161, 161, 163);
+    border: 5px solid red;
+    height: 100px;
+    width: auto;
+    overflow:auto;
+   
+    /* visibility: hidden; */
+}
+.one {
+    border: 5px solid green;
+    height: 100px;
+    width: auto;
+    overflow: auto;
+    visibility: hidden;
+    display:  ;
+
+}
+.pra:hover {
+border: 6px  dotted rgb(0, 30, 255);
+font-size: 19px;
+background-color: brown;
+transition: 2s;
+}
+ 

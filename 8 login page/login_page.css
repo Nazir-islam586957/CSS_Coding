@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/7135025/pexels-photo-7135025.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat:no-repeat ;
+    background-size:cover;
+    /* height:100vh; */
+    
+}
+.from{
+    width: 65%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;  
+ 
+}
+.pragraph{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+.file{
+    border: 1px solid rgb(255, 0, 0);
+    width: 50%;
+    padding: 40px 0; 
+    text-align: center;  
+}
+.upload{
+    background-color: aqua;
+    border-color:white;
+    padding:8px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(61, 53, 53); 
+
+}
+.p{
+   text-align: center; 
+}
+ 

@@ -1,0 +1,16 @@
+.boxes {
+    border: 5px solid green;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row ;
+   
+}
+
+.box {
+    width: 100px;
+    border: 2px solid rgb(255, 123, 0);
+    height: 100px;
+    text-align: center;
+}

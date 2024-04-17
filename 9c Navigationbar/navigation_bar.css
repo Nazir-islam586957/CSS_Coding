@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.navigation{
+    background-color: green;
+    height: 70px;
+   display: flex;
+   align-items: center;
+}
+.navigation .logo img{
+    height: 64px;;
+}
+.navigation ul {
+display:flex;
+margin:auto;
+list-style-type: none;
+}
+
+.navigation ul li{
+    margin: 10px;
+    background-color:brown;
+    padding:10px 30px;
+    border-radius: 10px;
+    transition: s;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+  font-weight:bold;
+}
+.navigation ul li:hover{
+    background-color: rgb(37, 122, 196);
+    transition: 1s;
+}
+.navigation ul li:hover a{
+    color: black;
+ 
+}

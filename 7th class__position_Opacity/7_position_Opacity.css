@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(175, 175, 175);
+}
+ 
+.flower{
+    opacity:1;
+    transition: 2s;
+}
+.flower:hover{
+opacity:.3;
+transition: 2s;
+ 
+}
+ .div1{
+    border: 7px solid red;
+    background-color: rgb(0, 192, 198);
+ font-size: 40px;
+}
+.div2::first-letter{
+  font-size: 80px;
+}
+.div2{
+    border: 9px dotted rgb(136, 0, 255);
+}
+.p{
+    font-size: 30px;
+}
+.menu{
+
+    background-color: blue ;
+    font-size: 50px;
+    padding: 19px; width: 100%;
+ /* position: fixed; */
+ position: sticky; 
+ top: 10px;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 600px)
+{
+    body{
+        background-color: orange;
+    }
+    .text{
+        color: rgb(0, 255, 157);
+        margin-left: 50%;
+        font-size: 20px;
+
+    }
+}
+@media only screen and (min-width: 600px)
+{
+    body{
+        background-color: brown;
+    }
+    .text{
+        color: rgb(255, 255, 255);
+    }
+}
+@media only screen and (min-width: 768px)
+{
+    body{
+        background-color: rgb(255, 234, 0);
+    }
+}
+@media only screen and (min-width:992px)
+{
+}
+@media only screen and (min-width: 1200px)
+{
+    body{
+        background-color: chartreuse;
+    }
+}

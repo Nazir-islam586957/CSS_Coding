@@ -1,0 +1,267 @@
+menu>ul {
+    background-color: rgb(0, 98, 16);
+    display: flex;
+    height: 90px;
+    align-items: center;
+    list-style-type: none;
+
+
+}
+
+.img {
+    position: center;
+    display: flex;
+}
+
+
+menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+menu>ul>li {
+    padding: 10px 10px;
+
+}
+
+.hi {
+    position: relative;
+}
+
+menu .first-ul li:hover {
+    background-color: rgb(255, 94, 0);
+}
+
+.sub-menu {
+    display: none;
+}
+
+/* menu .first-ul .hi:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: red;
+    display: flex;
+    bottom: 450px;
+} */
+
+menu .first-ul .hi:hover .sub-menu>.second-ul {
+    display: inline;
+
+}
+
+.second-ul li {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: start;
+    width: 100p;
+    position: relative;
+}
+
+menu .first-ul li:hover .sub-menu {
+    display: block;
+    display: flex;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+
+
+
+.sub-in {
+    position: relative;
+    list-style-type: none;
+}
+
+.menu .sub2-ul li:hover {
+    background-color: rgb(255, 94, 0);
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+menu .sub2-ul .sub-in:hover .sub-menu-2 {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 0, 238);
+    display: flex;
+    border-radius: 10px;
+    bottom: -300px;
+}
+
+menu .sub2-ul .sub-in:hover .sub-menu-2>.sub3-ul {
+    display: inline;
+
+}
+
+.sub3-ul li {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: start;
+    width: 100p;
+    position: relative;
+}
+
+
+
+
+
+.news {
+    display: none;
+}
+
+.news-h {
+    position: relative;
+    list-style-type: none;
+}
+
+
+menu .news-ul .news-h:hover .news {
+    display: block;
+    position: absolute;
+    background-color: rgb(8, 38, 134);
+    display: flex;
+    border-radius: 10px;
+    bottom: -140px;
+    list-style-type: none;
+}
+
+.news-u {
+    list-style-type: none;
+}
+
+
+
+
+.price {
+    display: none;
+
+}
+
+.price-h {
+
+    position: relative;
+    list-style-type: none;
+}
+
+
+menu .price-ul .price-h:hover .price {
+    display: block;
+    position: absolute;
+    background-color: rgb(6, 76, 123);
+    display: flex;
+    border-radius: 10px;
+    bottom: -50px;
+    list-style-type: none;
+}
+
+.price-u {
+
+    list-style-type: none;
+}
+
+.aplication {
+    display: none;
+}
+
+.aplication-h {
+    position: relative;
+    list-style-type: none;
+}
+
+
+menu .aplication-ul .aplication-h:hover .aplication {
+    display: block;
+    position: absolute;
+    background-color: rgb(67, 12, 63);
+    display: flex;
+    border-radius: 10px;
+    bottom: -30px;
+    list-style-type: none;
+}
+
+.aplication-u {
+
+    list-style-type: none;
+}
+
+
+
+
+.wrold {
+    display: none;
+}
+
+.wrold-h {
+    position: relative;
+    list-style-type: none;
+}
+
+
+menu .wrold-ul .wrold-h:hover .wrold {
+    display: block;
+    position: absolute;
+    background-color: rgb(112, 60, 44);
+    display: flex;
+    border-radius: 10px;
+    bottom: -50px;
+    list-style-type: none;
+}
+
+.wrold-u {
+
+    list-style-type: none;
+}
+
+
+
+
+
+.jogajog {
+    display: none;
+}
+
+.jogajog-h {
+    position: relative;
+    list-style-type: none;
+}
+
+
+menu .jogajog-ul .jogajog-h:hover .jogajog {
+    display: block;
+    position: absolute;
+    background-color: rgb(8, 38, 134);
+    display: flex;
+    border-radius: 10px;
+    bottom: -140px;
+    list-style-type: none;
+}
+
+.jogajog-u {
+
+    list-style-type: none;
+}
+
+.number img {
+
+    padding-left: 1000px;
+    height: 900px;
+    width: 400px;
+    padding-top: -700px;
+
+}
+
+.number h2 {
+
+    display: inline-block;
+    background-color: brown;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 1100px;
+}

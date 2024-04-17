@@ -1,0 +1,38 @@
+body{
+  background-image:url(./Beautiful-Nature-Wallpapers.jpg) ;
+  background-size:100% ;
+  background-repeat:no-repeat; 
+ 
+
+ }
+  
+p{  
+      /* background-image:url("./nature-319.jpg"); 
+    background-size:100% ;
+    background-repeat:no-repeat; */
+      
+    font-size:20px;
+    font-weight: 600;
+    font-family: fantasy;
+    background-color: aqua;color: rgb(255, 0, 170);
+    height: 120px;
+    width: 50%x;
+    line-height:1.97;
+
+    border: width 10px;
+    border-style:solid;
+    border-color:red;
+}
+
+div{
+    background-image:linear-gradient(green,rgb(153, 207, 142),rgb(214, 220, 214));
+
+border-bottom: 4px solid black ;
+margin-left:10px;
+/* border: 2px solid greenyellow */
+}
+/* background-color: blue;
+height: 100px;
+width: 100px;
+border: 50%11 ; */
+

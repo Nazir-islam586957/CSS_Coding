@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.navigation{
+    background-color: green;
+    height: 70px;
+   display: flex;
+   align-items: center;
+}
+.navigation .logo img{
+    height: 64px;;
+}
+.navigation ul {
+display:flex;
+margin:auto;
+list-style-type: none;
+}
+
+.navigation ul li{
+    margin: 10px;
+    background-color: brown;
+    padding:10px 30px;
+    border-radius: 10px;
+    transition: s;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: white;
+  font-weight:bold;
+}
+.navigation ul li:hover{
+    background-color: rgb(37, 122, 196);
+    transition: 1s;
+    position: relative;
+}
+.navigation ul li:hover a{
+    color: black;
+ 
+}
+
+
+.sub-navigation{
+    display:none;
+}
+.navigation ul li:hover .sub-navigation {
+    display: block;
+    position: absolute; 
+    left: 0px;
+  
+    
+} 
+.navigation ul li  .sub-navigation ul{
+    display: block;
+    top: 5px; ; 
+    position: relative;
+}
+
+
+.menobar{
+    display: none;
+}
+.navigation ul li:hover .menobar{
+  display: block;
+  position: absolute;
+  background-color: blue;
+  margin-top: 10px ;
+  border-radius: 20px;
+  left: -150px;
+  width: 600px;
+  display: flex;
+}
+
+ 
+    
+.navigation ul li .menobar ul{
+    display: block;
+   width: 30%;
+   margin: 10px;
+   box-shadow:3px 3px 3px 3px;
+   
+    
+}

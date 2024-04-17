@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    animation-name: animation1;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+
+}
+
+/* .box1 {
+    margin-top: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(68, 2, 83);
+    animation-name: animation2;
+    animation-duration: 15s;
+} */
+
+
+
+/* @keyframes animation1 {
+    from {
+        background-color: brown;
+        transform: scale(1.5);
+    }
+
+    to {
+        background-color: chartreuse;
+        transform: scale(.5);
+    }
+} */
+
+@keyframes animation1 {
+    10% {
+        background-color: gold;
+        transform: rotate(360deg);
+    }
+
+    20% {
+        background-color: blue;
+        transform: scale(1.2);
+    }
+
+    50% {
+        background-color: blueviolet;
+        transform: scale(.2);
+    }
+
+    70% {
+        background-color: burlywood;
+        transform: skew(30deg);
+    }
+}
+
+/* @keyframes animation2{
+    10%{
+        transform: translate(450px);
+    }
+    30%{
+        transform: translate(450px,200px);
+    }
+50%{
+    transform: translatey(200px);
+}
+} */
+
+
+
+
+
+.box2 {
+    margin-top: 100px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    position: relative;
+    background-color: rgb(113, 183, 0);
+    margin: auto;
+}
+
+.box2::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: coral;
+    border-radius: 100%;
+    top: 0;
+    left: 0%;
+    z-index: -1;
+    transition: 2s;
+}
+
+.box2:hover::after {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+
+
+
+
+.box-img {
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url( https://miro.medium.com/max/3600/0*n-2bW82Z6m6U2bij.jpeg);
+    animation-name: animation4;
+    animation-duration: 20s;
+    margin: auto;
+    margin-top: 150px; 
+    /* animation-direction: reverse; */
+    /* background-attachment: fixed; */
+     
+}
+@keyframes animation4 {
+    15% {
+        background-image: url(https://blog.xojo.com/wp-content/uploads/2016/01/coding_cat.pngt1466486449161ampwidth320);
+        /* transform: rotate(360deg); */
+        border: 5px solid green;
+    }
+
+    30% {
+        background-image: url(https://media1.giphy.com/media/VbnUQpnihPSIgIXuZv/200w.gif?cid=82a1493bman1l6lk5tq5dq8of665eembvunfoxvubndqc844&rid=200w.gif&ct=g);
+        /* transform: scale(1.2); */
+        border: 5px solid orange;
+    }
+
+    32% {
+        background-image: url(https://www.enwallpaper.com/wp-content/uploads/2021/05/f9952f839c569026a62a7da5649bd705-500x486.jpg);
+        /* transform: scale(.2); */
+        /* transition: 4s; */
+        border:5px solid blue; 
+    }
+
+    50% {
+       background-image: url(https://media.newyorker.com/photos/590971712179605b11ad7a88/4:3/w_1787,h_1340,c_limit/Jabr-AreCatsDomesticated.jpg);
+        /* transform: skew(30deg); */
+        border: 5px solid rgb(119, 128, 0);
+    }
+}

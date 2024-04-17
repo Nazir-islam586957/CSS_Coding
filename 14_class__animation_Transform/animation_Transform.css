@@ -1,0 +1,63 @@
+.coding {
+    border: 1px solid green;
+    transform: translatey(50px);
+    display: flex;
+}
+
+
+.one{
+    position: relative;
+}
+.one:hover .text  {
+    color: rgb(255, 0, 0);
+    display: block;
+    transition: 2s;
+}
+.text{
+    position: absolute;
+    top: 0;
+    display: none;
+    transition: 2s;
+}
+
+
+
+
+
+.coding img {
+    width: 25%;
+    /* transform:translate(120px); */
+    transition: 2s; 
+}
+ 
+img:hover {
+    transform: translate(120px,50px);
+    transition: 2s;
+    /* transform: skew(20deg); */
+    transform: scale(1.5);
+    
+}   
+
+
+
+
+
+
+.coding-2 {
+    border: 1px solid green;
+    transform: translatey(200px);
+
+}
+
+.coding-2 img {
+    width: 25%;
+    /* transform:translate(120px); */
+    transition: 2s; 
+}
+
+img:hover {
+    transform: translate(120px,50px);
+    transition: 2s;
+    /* transform: skew(20deg); */
+    transform: scale(1.5);
+}   
